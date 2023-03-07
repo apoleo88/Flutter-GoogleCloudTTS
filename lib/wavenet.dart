@@ -70,7 +70,7 @@ class TextToSpeechService {
     final request = client.getUrl(_getApiUrl(endpoint));
     try {
       // Sends the request and returns the response body
-      await _getResponse(request.then((value) => value));
+      return await _getResponse(request.then((value) => value));
     } catch (e) {
       throw (e);
     }
