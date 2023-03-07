@@ -39,7 +39,7 @@ File mp3 = await service.textToSpeech(
   text: 'Hello World',
   voiceName: 'en-GB-Wavenet-F',
   audioEncoding: 'MP3',
-  languageCode: 'en-GB'
+  languageCode: 'en-GB',
   pitch: 0.0,
   speakingRate: 1.0,
 );
